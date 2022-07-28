@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>payment form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+  
+  <!-- header -->
+  <header>
+    <div class="header-1">
+      <h1 >Personal details</h1>
+    </div>
+  </header
+  <!-- header-1 -->
+  <div class="head">
+    <div class="fl1">
+      <p>Enter your name:</p>
+      <p>Enter your email:</p>
+      <p>Enter your mobile no:</p>
+      <p> Gender: </p>
+      <p>Address: </p>
+    </div>
+    <div class="fl2">
+      <p><input type ="text"></p>
+      <p><input type="email" placeholder="email"></p>
+      <p><input type="number"></p>
+      <p><input type="radio" name="gender" id="gen">male
+        <input type="radio" name="gender" id="gen">female</p>
+      <p><textarea name="add" id="add" cols="30" rows="5"></textarea></p>
+    </div>
+  </div>
+  <!-- section-2 -->
+  <div class="header-1">
+    <h1>Your payment details:</h1>
+  </div>
+
+  <div class="head-2">
+     <div class="fl3">
+      <p>Amount (in Rs.)</p>
+      <p>credit or debit card:</p>
+      <p>Card type:</p>
+      <p>Enter card number:</p>
+      <p>Name on card:</p>
+      <p>Exp: </p>
+      <p>CVV:</p>
+
+     </div>
+     <div class="fl4">
+      <p><input type="number"></p>
+      <p> <input type="radio" name="card" id="credit">credit 
+        <input type="radio" name="card" id="debit">debit</p>
+        <p><select name="card" id="card">
+          <option>select your card type</option>
+          <option>VISA</option>
+          <option>MASTERCARD</option>
+          <option>RUPAY</option>
+       </select></p>
+       <p><input type="password"></p>
+       <p><input type="text"></p>
+       <p><input type="date"></p>
+       <p> <input type="password" name="cvv" id="cvv"></p>
+
+     </div>
+  </div>
+ <div class="sub">
+    <p class="btn" ><input onclick="clickMe()";
+      type="submit" value="Pay Now">
+     </p>
+   </div> 
+
+  </body>
+
+
+</html>
