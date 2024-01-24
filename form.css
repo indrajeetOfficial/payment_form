@@ -1,0 +1,27 @@
+body{
+  background-image: url(./img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    background:white;
+    color:blue;
+   border: none;
+   margin-top: 20px;
+   margin-left:50%;  
+}
+label{
+    width:200px;
+    display: inline-block;
+    margin-left:160px; 
+}
+h2{
+   text-align: center;
+   color:  rgb(179, 247, 7);
+}
+
+
+
